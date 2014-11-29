@@ -22,7 +22,7 @@ a {
 
 .thin-border {
   border-bottom: 2px solid #00F76F;
-  margin: 0 50px 2px 50px;
+  margin: 20px 50px 2px 50px;
 }
 
 .thick-border {
@@ -33,25 +33,23 @@ a {
 h1 {
   margin: 0 50px;
   padding: 0;
-  font-size: 78px;
   border-top: 7px solid #00F76F;
   border-bottom: 2px solid #00F76F;
 }
 
 h1 ul {
-  margin: 0;
+  margin: 10px auto;
   padding: 0;
-  margin: auto;
   text-align: center;
 }
 
 h1 ul li {
-  font-size: 1.6em;
-  line-height: 1em;
+  font-size: 3em;
+  line-height: .9em;
 }
 
 h2 {
-  font-size: 4em;
+  font-size: 3em;
   margin: 20px auto;
   text-align: center;
   line-height: 1em;
@@ -121,9 +119,13 @@ h2 {
   display: inline;
 }
 
-.icons li a {
+.stores li a {
   text-decoration: none;
   -webkit-text-stroke-width: 0px;
+}
+
+.stores li a img {
+  vertical-align: middle;
 }
 
 
