@@ -63,6 +63,61 @@ h1 ul li {
 
 h2 {
   font-size: 4em;
-  margin: 25px auto;
+  margin: 25px auto 0 auto;
   text-align: center;
+  line-height: 1em;
+}
+
+.icons {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.icons li {
+  display: inline;
+  border: 1px solid;
+  margin: 5px;
+  border-radius: 12px;
+}
+
+.icons li a {
+  text-decoration: none;
+  color: #fff;
+  -webkit-text-stroke-width: 0px;
+}
+
+.icons li a i {
+  display: inline-block;
+  width: 20px;
+}
+
+#facebook {
+  border-color: #3C5B9B;
+  background-color: #3C5B9B;
+  padding: 25px 11px 10px 15px;
+}
+
+#instagram {
+  border-color: #517FA4;
+  background-color: #517FA4;
+  padding: 25px 15px 10px 11px;
+}
+
+#twitter {
+  border-color: #2DAAE1;
+  background-color: #2DAAE1;
+  padding: 25px 15px 10px 11px;
+}
+
+#soundcloud {
+  border-color: #2DAAE1;
+  background-color: #2DAAE1;
+  padding: 25px 15px 10px 11px;
+}
+
+#email {
+  border-color: #2DAAE1;
+  background-color: #2DAAE1;
+  padding: 25px 15px 10px 11px;
 }
