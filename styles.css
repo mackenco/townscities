@@ -1,6 +1,8 @@
 body {
-  background-color: #445669;
-  color: #74F271;
+  background-color: #435668;
+  color: #00F76F;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #1D3142;
   text-transform: uppercase;
   margin: 8px 0;
 }
@@ -19,7 +21,7 @@ a {
 }
 
 h1 {
-  margin: 0;
+  margin: 0 40px;
   padding: 0;
   font-size: 78px;
   border-top: 10px solid #74F271;
@@ -43,14 +45,23 @@ h1:after {
   bottom: 1px;
   left: 25%;
   right: 25%;
-  border-bottom: 10px solid #74F271;
+  /* border-bottom: 10px solid #74F271; */
 }
 
 h1 ul {
   margin: 0;
   padding: 0;
   margin: auto;
+  text-align: center;
 }
 
 h1 ul li {
+  font-size: 1.6em;
+  line-height: 1em;
+}
+
+h2 {
+  font-size: 4em;
+  margin: 25px auto;
+  text-align: center;
 }
