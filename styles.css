@@ -2,9 +2,12 @@ body {
   font-family: RionaSans-Medium;
   background-color: #435668;
   color: #00F76F;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #1D3142;
   text-transform: uppercase;
+  text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 ul {
@@ -77,6 +80,7 @@ h2 {
 .icons li a i {
   display: inline-block;
   width: 20px;
+  text-shadow: none;
 }
 
 #facebook {
