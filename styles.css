@@ -24,20 +24,26 @@ a {
 }
 
 .thin-border {
-  border-bottom: 2px solid #00F76F;
-  margin: 20px 50px 2px 50px;
+  background-color: #00F76F;
+  height: 2px;
+  border: 1px solid #1D3142; 
+  margin: 0px 50px 0px 50px;
+  min-width: 380px;
 }
 
 .thick-border {
-  border-top: 7px solid #00F76F;
-  margin: 2px 50px 0px 50px;
+  background-color: #00F76F;
+  height: 7px;
+  border: 1px solid #1D3142;
+  border-top: none;
+  margin: 1px 50px 0px 50px;
+  min-width: 380px;
 }
 
 h1 {
   margin: 0 50px;
   padding: 0;
-  border-top: 7px solid #00F76F;
-  border-bottom: 2px solid #00F76F;
+  min-width: 380px;
 }
 
 h1 ul {
