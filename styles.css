@@ -1,13 +1,14 @@
 body {
   font-family: RionaSans-Medium;
   background-color: #435668;
-  color: #00F76F;
+  color: #01F781;
   text-transform: uppercase;
   text-shadow: 
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+  margin-top: 30px;
 }
 
 ul {
@@ -24,26 +25,27 @@ a {
 }
 
 .thin-border {
-  background-color: #00F76F;
+  background-color: #01F781;
   height: 2px;
   border: 1px solid #1D3142; 
-  margin: 0px 50px 0px 50px;
+  margin: 0px 20px 0px 20px;
   min-width: 380px;
 }
 
 .thick-border {
-  background-color: #00F76F;
+  background-color: #01F781;
   height: 7px;
   border: 1px solid #1D3142;
   border-top: none;
-  margin: 1px 50px 0px 50px;
+  margin: 1px 20px 0px 20px;
   min-width: 380px;
 }
 
 h1 {
-  margin: 0 50px;
-  padding: 0;
+  padding: 2px 0 0 0;
   min-width: 380px;
+  font-style: normal;
+  font-weight: normal;
 }
 
 h1 ul {
@@ -53,15 +55,19 @@ h1 ul {
 }
 
 h1 ul li {
-  font-size: 3em;
-  line-height: .9em;
+  font-size: 141px;
+  line-height: 140px;
+  letter-spacing: 10px;
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: normal;
   margin: 20px auto;
   text-align: center;
   line-height: 1em;
+  letter-spacing: 2px;
 }
 
 .icons {
@@ -98,7 +104,7 @@ h2 {
 #instagram {
   border-color: #517FA4;
   background-color: #517FA4;
-  padding: 25px 15px 10px 11px;
+  padding: 25px 16px 10px 10px;
 }
 
 #twitter {
@@ -110,7 +116,7 @@ h2 {
 #soundcloud {
   border-color: #F75E0E;
   background-color: #F75E0E;
-  padding: 25px 16px 10px 10px;
+  padding: 25px 18px 10px 8px;
 }
 
 #email {
@@ -121,12 +127,13 @@ h2 {
 
 .stores {
   padding: 0;
-  margin: 20px 0;
+  margin: 30px 0;
   text-align: center;
 }
 
 .stores li {
   display: inline;
+  margin-right: 10px;
 }
 
 .stores li a {
@@ -138,4 +145,6 @@ h2 {
   vertical-align: middle;
 }
 
-
+#google a img {
+  height: 40px;
+}
