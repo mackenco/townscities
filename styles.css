@@ -1,14 +1,17 @@
 body {
   font-family: RionaSans-Medium;
   background-color: #435668;
-  color: #01F781;
+  color: #0CEC81;
   text-transform: uppercase;
   text-shadow: 
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-  margin-top: 30px;
+    -0.75px -0.75px 0 #1D3142,
+    0.75px -0.75px 0 #1D3142,
+    -0.75px 0.75px 0 #1D3142,
+    0.75px 0.75px 0 #1D3142;
+  /* v asked for whole page to look 90% smaller than present, there's a hack for that */
+  -moz-transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 ul {
@@ -25,7 +28,7 @@ a {
 }
 
 .thin-border {
-  background-color: #01F781;
+  background-color: #0CEC81;
   height: 2px;
   border: 1px solid #1D3142; 
   margin: 0px 20px 0px 20px;
@@ -33,7 +36,7 @@ a {
 }
 
 .thick-border {
-  background-color: #01F781;
+  background-color: #0CEC81;
   height: 7px;
   border: 1px solid #1D3142;
   border-top: none;
@@ -46,17 +49,18 @@ h1 {
   min-width: 380px;
   font-style: normal;
   font-weight: normal;
+  margin: 25px 0 10px 0;
 }
 
 h1 ul {
-  margin: 10px auto;
+  margin: 10px auto 0 auto;
   padding: 0;
   text-align: center;
 }
 
 h1 ul li {
   font-size: 141px;
-  line-height: 140px;
+  line-height: 130px;
   letter-spacing: 10px;
 }
 
@@ -122,7 +126,7 @@ h2 {
 #email {
   border-color: #0B2F3D;
   background-color: #0B2F3D;
-  padding: 25px 18px 10px 13px;
+  padding: 25px 24px 10px 8px;
 }
 
 .stores {
