@@ -13,25 +13,24 @@ body {
 .thin-border {
   margin: 0px 20px 0px 20px;
   min-width: 380px;
+  height: 2px;
 }
 
 .thick-border {
   margin: 2px 20px 0px 20px;
   min-width: 380px;
+  height: 7px;
 }
 
 h1 {
   padding: 2px 0 0 0;
   min-width: 380px;
-  font-style: normal;
-  font-weight: normal;
   margin: 25px 0 10px 0;
 }
 
 h1 ul {
   margin: 10px auto 0 auto;
   padding: 0;
-  text-align: center;
 }
 
 h1 ul li {
@@ -42,13 +41,9 @@ h1 ul li {
 
 h2 {
   font-size: 68px;
-  font-style: normal;
-  font-weight: normal;
   margin: 20px auto;
-  text-align: center;
   line-height: 1em;
   letter-spacing: 2px;
-  white-space: nowrap;
 }
 
 @media all and (max-width: 1300px) {
@@ -79,93 +74,4 @@ h2 {
   }
 }
 
-.icons {
-  padding: 0;
-  margin: 20px 0;
-  text-align: center;
-}
 
-.icons li {
-  display: inline;
-  border: 1px solid;
-  margin: 5px;
-  border-radius: 12px;
-}
-
-.icons li a {
-  text-decoration: none;
-  color: #fff;
-  -webkit-text-stroke-width: 0px;
-}
-
-.icons li a i {
-  display: inline-block;
-  width: 20px;
-  text-shadow: none;
-}
-
-#facebook {
-  border-color: #3C5B9B;
-  background-color: #3C5B9B;
-  padding: 25px 11px 10px 15px;
-}
-
-#instagram {
-  border-color: #517FA4;
-  background-color: #517FA4;
-  padding: 25px 16px 10px 10px;
-}
-
-#twitter {
-  border-color: #2DAAE1;
-  background-color: #2DAAE1;
-  padding: 25px 15px 10px 11px;
-}
-
-#soundcloud {
-  border-color: #F75E0E;
-  background-color: #F75E0E;
-  padding: 25px 18px 10px 8px;
-}
-
-#email {
-  border-color: #0B2F3D;
-  background-color: #0B2F3D;
-  padding: 24px 23px 11px 8px;
-  position: relative;
-  top: -1px;
-}
-
-.stores {
-  padding: 0;
-  margin: 30px 0;
-  text-align: center;
-}
-
-.stores li {
-  display: inline;
-  margin-right: 10px;
-}
-
-.stores li a {
-  text-decoration: none;
-  -webkit-text-stroke-width: 0px;
-}
-
-.stores li a img {
-  vertical-align: middle;
-}
-
-#google a img {
-  height: 40px;
-}
-
-#trademark {
-  font-size: 10px;
-  text-align: center;
-  width: 400px;
-  margin: auto;
-  margin-top: 50px;
-  text-shadow: none;
-  text-transform: none;
-}

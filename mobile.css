@@ -1,0 +1,15 @@
+.thin-border {
+  height: 8px;
+  margin: 0px 10px 0px 10px;
+  border: 1.5px solid #1D3142;
+}
+
+.thick-border {
+  height: 20px;
+  margin: 5px 10px 0px 10px;
+  border: 1.5px solid #1D3142;
+}
+
+h1 ul li {
+  font-size: 200px; 
+}
