@@ -1,0 +1,37 @@
+body {
+  font-family: RionaSans-Medium;
+  background-color: #435668;
+  color: #0CEC81;
+  text-transform: uppercase;
+  text-shadow: 
+    -0.75px -0.75px 0 #1D3142,
+    0.75px -0.75px 0 #1D3142,
+    -0.75px 0.75px 0 #1D3142,
+    0.75px 0.75px 0 #1D3142;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.thin-border {
+  background-color: #0CEC81;
+  height: 2px;
+  border: 0.75px solid #1D3142; 
+  margin: 0px 20px 0px 20px;
+  min-width: 380px;
+}
+
+.thick-border {
+  background-color: #0CEC81;
+  height: 7px;
+  border: 0.75px solid #1D3142;
+  margin: 2px 20px 0px 20px;
+  min-width: 380px;
+}
+
+
