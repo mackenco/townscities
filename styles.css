@@ -30,7 +30,7 @@ a {
 .thin-border {
   background-color: #0CEC81;
   height: 2px;
-  border: 1px solid #1D3142; 
+  border: 0.75px solid #1D3142; 
   margin: 0px 20px 0px 20px;
   min-width: 380px;
 }
@@ -38,9 +38,8 @@ a {
 .thick-border {
   background-color: #0CEC81;
   height: 7px;
-  border: 1px solid #1D3142;
-  border-top: none;
-  margin: 1px 20px 0px 20px;
+  border: 0.75px solid #1D3142;
+  margin: 2px 20px 0px 20px;
   min-width: 380px;
 }
 
