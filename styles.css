@@ -154,7 +154,9 @@ h2 {
 #email {
   border-color: #0B2F3D;
   background-color: #0B2F3D;
-  padding: 25px 24px 10px 8px;
+  padding: 24px 23px 11px 8px;
+  position: relative;
+  top: -1px;
 }
 
 .stores {
