@@ -42,17 +42,22 @@ h2 {
 }
 
 #instagram {
-  padding: 75px 55px 25px 39px;
+  padding: 75px 72px 25px 22px;
 }
 
 #twitter {
-  padding: 75px 55px 25px 39px;
+  padding: 75px 71px 25px 23px;
 }
 
 #soundcloud {
-  padding: 75px 55px 25px 39px;
+  padding: 75px 76px 25px 18px;;
 }
 
 #email {
-  padding: 75px 55px 25px 39px;
+  padding: 75px 78px 25px 16px;
+  position: relative;
+}
+
+#email i {
+  font-size: 75px;
 }
