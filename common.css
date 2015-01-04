@@ -50,8 +50,6 @@ h2 {
 .icons li {
   display: inline;
   border: 1px solid;
-  margin: 5px;
-  border-radius: 12px;
 }
 
 .icons li a {
@@ -69,33 +67,26 @@ h2 {
 #facebook {
   border-color: #3C5B9B;
   background-color: #3C5B9B;
-  padding: 25px 11px 10px 15px;
 }
 
 #instagram {
   border-color: #517FA4;
   background-color: #517FA4;
-  padding: 25px 16px 10px 10px;
 }
 
 #twitter {
   border-color: #2DAAE1;
   background-color: #2DAAE1;
-  padding: 25px 15px 10px 11px;
 }
 
 #soundcloud {
   border-color: #F75E0E;
   background-color: #F75E0E;
-  padding: 25px 18px 10px 8px;
 }
 
 #email {
   border-color: #0B2F3D;
   background-color: #0B2F3D;
-  padding: 24px 23px 11px 8px;
-  position: relative;
-  top: -1px;
 }
 
 .stores {

@@ -74,4 +74,30 @@ h2 {
   }
 }
 
+.icons li {
+  margin:5px;
+  border-radius: 12px;
+}
+
+#facebook {
+  padding: 25px 11px 10px 15px;
+}
+
+#instagram {
+  padding: 25px 16px 10px 10px;
+}
+
+#twitter {
+  padding: 25px 15px 10px 11px;
+}
+
+#soundcloud {
+  padding: 25px 18px 10px 8px;
+}
+
+#email {
+  padding: 24px 23px 11px 8px;
+  position: relative;
+  top: -1px;
+}
 
