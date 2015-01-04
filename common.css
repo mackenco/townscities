@@ -43,7 +43,6 @@ h2 {
 
 .icons {
   padding: 0;
-  margin: 20px 0;
   text-align: center;
 }
 
@@ -91,7 +90,6 @@ h2 {
 
 .stores {
   padding: 0;
-  margin: 30px 0;
   text-align: center;
 }
 
@@ -109,16 +107,9 @@ h2 {
   vertical-align: middle;
 }
 
-#google a img {
-  height: 40px;
-}
-
 #trademark {
-  font-size: 10px;
   text-align: center;
-  width: 400px;
   margin: auto;
-  margin-top: 50px;
   text-shadow: none;
   text-transform: none;
 }

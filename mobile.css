@@ -28,6 +28,10 @@ h2 {
   margin: 20px auto;
 }
 
+.icons {
+  margin 50px 0;
+}
+
 .icons li {
   margin: 15px;
   border-radius: 30px;
@@ -42,7 +46,7 @@ h2 {
 }
 
 #instagram {
-  padding: 75px 72px 25px 22px;
+  padding: 75px 73px 25px 21px;
 }
 
 #twitter {
@@ -54,10 +58,25 @@ h2 {
 }
 
 #email {
-  padding: 75px 78px 25px 16px;
-  position: relative;
+  padding: 75px 76px 25px 18px;
 }
 
 #email i {
-  font-size: 75px;
+  font-size: 70px;
+  position: relative;
+  top: -4px;
+}
+
+.stores {
+  margin: 50px 0;
+}
+
+.stores img {
+  height: 100px;
+}
+
+#trademark {
+  font-size: 15px;
+  width: 500px;
+  margin-top: 90px;
 }

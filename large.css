@@ -74,6 +74,10 @@ h2 {
   }
 }
 
+.icons {
+  margin: 20px 0;
+}
+
 .icons li {
   margin:5px;
   border-radius: 12px;
@@ -101,3 +105,16 @@ h2 {
   top: -1px;
 }
 
+.stores {
+  margin: 30px 0;
+}
+
+#google a img {
+  height: 40px;
+}
+
+#trademark {
+  font-size: 10px;
+  width: 400px;
+  margin-top: 50px;
+}
