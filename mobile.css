@@ -1,15 +1,29 @@
+.main {
+  margin: 30px auto;
+}
+
 .thin-border {
-  height: 8px;
-  margin: 0px 10px 0px 10px;
-  border: 1.5px solid #1D3142;
+  height: 4px;
+  margin: 0px 25px 0px 25px;
+  border: 1px solid #1D3142;
 }
 
 .thick-border {
-  height: 20px;
-  margin: 5px 10px 0px 10px;
-  border: 1.5px solid #1D3142;
+  height: 14px;
+  margin: 5px 25px 0px 25px;
+  border: 1px solid #1D3142;
+}
+
+h1 ul {
+  margin: 50px;
 }
 
 h1 ul li {
   font-size: 200px; 
+  line-height: 200px;
+}
+
+h2 {
+  font-size: 100px;
+  margin: 20px auto;
 }
