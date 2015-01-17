@@ -3,11 +3,6 @@ body {
   background-color: #435668;
   color: #0CEC81;
   text-transform: uppercase;
-  text-shadow: 
-    -0.75px -0.75px 0 #1D3142,
-    0.75px -0.75px 0 #1D3142,
-    -0.75px 0.75px 0 #1D3142,
-    0.75px 0.75px 0 #1D3142;
 }
 
 ul {

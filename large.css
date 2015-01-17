@@ -3,6 +3,11 @@ body {
   -moz-transform: scale(0.9);
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
+  text-shadow: 
+    -0.75px -0.75px 0 #1D3142,
+    0.75px -0.75px 0 #1D3142,
+    -0.75px 0.75px 0 #1D3142,
+    0.75px 0.75px 0 #1D3142;
 }
 
 .main {
