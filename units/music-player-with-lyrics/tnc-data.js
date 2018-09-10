@@ -1,6 +1,6 @@
-var data = [
+var tncData = [
     {
-        title: 'I Do,\n You Do,\n We Do',
+        title: 'I Do, You Do, We Do',
         searchTitle: 'i do, you do, we do',
         music: [
             {
@@ -18,6 +18,28 @@ var data = [
         ],
         lyrics:
             'Present simple\n I do\n You do\n He does\n She does\n It does\n You do\n They do\n We do everything\n \n Present continuous\n I am doing\n You are doing\n He is doing\n She is doing\n It is doing\n You are doing\n They are doing\n We are doing us\n \n Simple past\n I did\n You did\n He did\n She did\n It did\n You did\n They did\n We did it all\n \n Present perfect\n I have done\n You have done\n He has done\n She has done\n It has done\n You have done\n They have done\n We have done it all\n \n Let’s take it back to the present simple\n I do\n You do\n He does\n She does\n It does\n You do\n They do\n We do everything\n \n Present continuous\n I am doing\n You are doing\n He is doing\n She is doing\n It is doing\n You are doing\n They are doing\n We are doing us\n \n Simple past\n I did\n You did\n He did\n She did\n It did\n You did\n They did\n We did it all\n \n Present perfect\n I have done\n You have done\n He has done\n She has done\n It has done\n You have done\n They have done\n We have done it all\n \n',
+        lyricsPlayer: {
+            lyrics: [
+                { line: ' ', time: 10000 },
+                { line: 'Present simple', time: 10500 },
+                { line: 'I do', time: 13000 },
+                { line: 'You do', time: 13500 },
+                { line: 'He does, she does, it does', time: 14000 },
+                { line: 'You do', time: 1800 },
+                { line: 'present continuous', time: 16500 },
+                { line: 'I am going you are going he is going', time: 18000 },
+                { line: 'she is going it is going you are going', time: 21000 },
+                { line: 'they are going', time: 24000 },
+                { line: 'we are going together', time: 25900 },
+                { line: '', time: 27800 },
+                { line: 'simple past', time: 29000 },
+                { line: 'I went you went', time: 30500 },
+                { line: 'he went she went it went', time: 32000 },
+                { line: 'you went', time: 35800 },
+                { line: 'Cause they put it in a bowl at the mall', time: 107500 },
+                { line: '', time: 112000 }
+            ]
+        },
         visualWS: [
             {
                 title: 'To Do',
@@ -832,7 +854,7 @@ var data = [
         ]
     },
     {
-        title: 'I Go,\n You Go,\n We Go',
+        title: 'I Go, You Go, We Go',
         searchTitle: 'i go, you go, we go',
         music: [
             {
@@ -850,6 +872,28 @@ var data = [
         ],
         lyrics:
             'Present simple\n I go\n You go\n He goes\n She goes\n It goes\n You go\n They go\n We go together\n \n Present continuous\n I am going\n You are going\n He is going\n She is going\n It is going\n You are going\n They are going\n We are going together\n \n Simple past\n I went\n You went\n He went\n She went\n It went\n You went\n They went\n We went together\n \n Present perfect\n I have gone\n You have gone\n He has gone\n She has gone\n It has gone\n You have gone\n They have gone\n We have gone everywhere!\n \n Take it back to the present simple\n I go\n You go\n He goes\n She goes\n It goes\n You go\n They go\n We go together\n \n Present continuous\n I am going\n You are going\n He is going\n She is going\n It is going\n You are going\n They are going\n We are going together\n \n Simple past\n I went\n You went\n He went\n She went\n It went\n You went\n They went\n We went together\n \n Present perfect\n I have gone\n You have gone\n He has gone\n She has gone\n It has gone\n You have gone\n They have gone\n And we have gone everywhere!\n \n ',
+        lyricsPlayer: {
+            lyrics: [
+                { line: '', time: -1 },
+                { line: 'Present simple', note: 'Verse 1', time: 4000 },
+                { line: 'I go you go he goes', time: 5900 },
+                { line: 'she goes it goes you go', time: 8800 },
+                { line: 'they go and we go together', time: 11800 },
+                { line: '', time: 16300 },
+                { line: 'present continuous', time: 16500 },
+                { line: 'I am going you are going he is going', time: 18000 },
+                { line: 'she is going it is going you are going', time: 21000 },
+                { line: 'they are going', time: 24000 },
+                { line: 'we are going together', time: 25900 },
+                { line: '', time: 27800 },
+                { line: 'simple past', time: 29000 },
+                { line: 'I went you went', time: 30500 },
+                { line: 'he went she went it went', time: 32000 },
+                { line: 'you went', time: 35800 },
+                { line: 'Cause they put it in a bowl at the mall', time: 107500 },
+                { line: '', time: 112000 }
+            ]
+        },
         visualWS: [
             {
                 title: 'To Go',
