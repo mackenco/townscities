@@ -16,7 +16,7 @@ function align() {
          .parent()
          .offset().top;
    var e = d + a / 2 - c / 2;
-   $('.content').animate({ scrollTop: e + 'px' }, { easing: 'swing', duration: 250 });
+   $('.content').animate({ scrollTop: e + 'px' }, { easing: 'swing', duration: 150 });
 }
 
 var lyricHeight = $('.lyrics').height();
