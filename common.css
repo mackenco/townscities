@@ -1,7 +1,7 @@
 body {
   font-family: RionaSans-Medium;
   background-color: #435668;
-  color: #0CEC81;
+  color: #0cec81;
   text-transform: uppercase;
 }
 
@@ -14,19 +14,19 @@ a {
 }
 
 .thin-border {
-  background-color: #0CEC81;
-  border: 0.75px solid #1D3142; 
+  background-color: #0cec81;
+  border: 0.75px solid #1d3142;
 }
 
 .thick-border {
-  background-color: #0CEC81;
-  border: 0.75px solid #1D3142;
+  background-color: #0cec81;
+  border: 0.75px solid #1d3142;
 }
 
 h1 ul {
   text-align: center;
   font-style: normal;
-  font-weight: normal
+  font-weight: normal;
 }
 
 h2 {
@@ -59,28 +59,28 @@ h2 {
 }
 
 #facebook {
-  border-color: #3C5B9B;
-  background-color: #3C5B9B;
+  border-color: #3c5b9b;
+  background-color: #3c5b9b;
 }
 
 #instagram {
-  border-color: #517FA4;
-  background-color: #517FA4;
+  border-color: #517fa4;
+  background-color: #517fa4;
 }
 
 #twitter {
-  border-color: #2DAAE1;
-  background-color: #2DAAE1;
+  border-color: #2daae1;
+  background-color: #2daae1;
 }
 
 #soundcloud {
-  border-color: #F75E0E;
-  background-color: #F75E0E;
+  border-color: #f75e0e;
+  background-color: #f75e0e;
 }
 
 #email {
-  border-color: #0B2F3D;
-  background-color: #0B2F3D;
+  border-color: #0b2f3d;
+  background-color: #0b2f3d;
 }
 
 .stores {
@@ -100,11 +100,4 @@ h2 {
 
 .stores li a img {
   vertical-align: middle;
-}
-
-#trademark {
-  text-align: center;
-  margin: auto;
-  text-shadow: none;
-  text-transform: none;
 }
