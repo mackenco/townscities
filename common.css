@@ -101,3 +101,21 @@ h2 {
 .stores li a img {
   vertical-align: middle;
 }
+
+.unit {
+  font-size: 2em;
+  width: 5em;
+  border: 1px solid;
+  border-radius: 5%;
+  text-align: center;
+  padding: 5px;
+}
+
+.units {
+  display: flex;
+  justify-content: space-around;
+}
+
+.units-title {
+  text-align: center;
+}

@@ -29,45 +29,6 @@ $(window).on('resize', function() {
    }
 });
 
-// Original
-
-// $(document).ready(function() {
-//    $('video').on('timeupdate', function(e) {
-//       var time = this.currentTime * 1000;
-//       var past = _data['lyrics'].filter(function(item) {
-//          return item.time < time;
-//       });
-//       if (_data['lyrics'][past.length] != currentLine) {
-//          currentLine = _data['lyrics'][past.length];
-//          $('.lyrics div').removeClass('highlighted');
-//          $(`.lyrics div:nth-child(${past.length})`).addClass('highlighted'); //Text might take up more lines, do before realigning
-//          align();
-//       }
-//    });
-// });
-
-// generate();
-
-// function generate() {
-//    var html = '';
-//    for (var i = 0; i < _data['lyrics'].length; i++) {
-//       html += '<div';
-//       if (i == 0) {
-//          html += ` class="highlighted"`;
-//          currentLine = 0;
-//       }
-//       html += '>';
-//       html += _data['lyrics'][i]['line'] == '' ? '&middot;' : _data['lyrics'][i]['line'];
-//       html += '</div>';
-//    }
-//    $('.lyrics').html(html);
-//    align();
-// }
-
-// New:
-
-// _data['lyrics']
-
 $(document).ready(function() {
    $('video').on('timeupdate', function(e) {
       console.log(`tncData[12].lyricsPlayer ${song.lyricsPlayer}`);
