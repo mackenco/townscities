@@ -1,3 +1,10 @@
+convertTimeToMS = time => parseInt(time.split(':')[0]) * 60000 + parseInt(time.split(':')[1]) * 1000;
+
+// I -> time string
+// O -> integer of miliseconds
+
+console.log(convertTimeToMS('1:42'));
+
 var tncData = [
     {
         title: 'I Do, You Do, We Do',
@@ -824,47 +831,28 @@ var tncData = [
                 { line: 'Cubicles and offices, some have doors', time: 82000 },
                 { line: 'I keep a stapler in the drawers', time: 85000 },
                 { line: 'I write a memo to give directions', time: 87500 },
-                { line: 'I check my voicemail for any messages', time: 91000 },
+                { line: 'I check my voicemail for any messages', time: 90000 },
                 { line: 'I have a client meeting over lunch', time: 93000 },
-                { line: 'I put my notes in a folder when done', time: 96000 }
-                { line: 'Once I\'m done taking notes, I say thanks!', time: 100000 },
-                // { line: 'You have gone', time: 48000 },
-                // { line: 'They have gone', time: 49000 },
-                // { line: 'and we have gone', time: 51000 },
-                // { line: 'everywhere', time: 52000 },
-                // { line: 'Take it back', time: 52500 },
-                // { line: 'to the present simple', time: 53500 },
-                // { line: 'I go you go he goes', time: 55000 },
-                // { line: 'she goes it goes you go', time: 58000 },
-                // { line: 'they go and we go together', time: 59000 }
-                // { line: '', time: 58000 },
-                // { line: 'present continuous', time: 59000 },
-                // { line: 'I am going you are going', time: 60000 },
-                // { line: 'he is going', time: 61000 },
-                // { line: 'she is going it is going', time: 62000 },
-                // { line: 'you are going', time: 63000 },
-                // { line: 'they are going', time: 64000 },
-                // { line: 'we are going together', time: 65000 },
-                // { line: '', time: 66000 },
-                // { line: 'simple past', time: 67000 },
-                // { line: 'I went you went', time: 68000 },
-                // { line: 'he went she went it went', time: 69000 },
-                // { line: 'you went', time: 70000 },
-                // { line: 'they went', time: 71000 },
-                // { line: 'and we went together', time: 72000 },
-                // { line: '', time: 73000 },
-                // { line: 'present perfect', time: 74000 },
-                // { line: 'I have gone', time: 75000 },
-                // { line: 'You have gone', time: 76000 },
-                // { line: 'He has gone', time: 77000 },
-                // { line: 'She has gone', time: 78000 },
-                // { line: 'It has gone', time: 79000 },
-                // { line: 'You have gone', time: 80000 },
-                // { line: 'They have gone', time: 81000 },
-                // { line: 'and we have gone', time: 82000 },
-                // { line: 'everywhere', time: 83000 },
-                // { line: 'Take it back', time: 84000 },
-                // { line: 'to the present simple', time: 85000 }
+                { line: 'I put my notes in a folder when done', time: 96000 },
+                { line: "Once I'm done taking notes, I say thanks!", time: 100000 },
+                { line: 'And we end the meeting with a handshake', time: 101500 },
+                { line: ' I head back to the office go through the doors', time: 104800 },
+                { line: ' I take the elevator up to my floor', time: 108000 },
+                { line: 'I keep my desk tidy and organized', time: 110000 },
+                { line: 'On my calendar is a vacation in July!', time: convertTimeToMS('1:54') },
+                { line: 'Quarterly results are important', time: convertTimeToMS('1:57') },
+                { line: 'We write our goals on clipboards with pens', time: convertTimeToMS('1:59') },
+                { line: 'I interview new candidates with the boss', time: convertTimeToMS('2:02') },
+                { line: 'You are hired! You got the job', time: convertTimeToMS('2:05') },
+                { line: 'All day we work at the office', time: convertTimeToMS('2:08') },
+                { line: 'We take breaks, then we drink coffee', time: convertTimeToMS('2:11') },
+                { line: 'All afternoon we talk about the market', time: convertTimeToMS('2:14') },
+                { line: 'We have meetings, we make profit', time: convertTimeToMS('2:17') },
+                { line: 'All day we work at the office', time: convertTimeToMS('2:19') },
+                { line: 'We take breaks, then we drink coffee', time: convertTimeToMS('2:23') },
+                { line: 'All afternoon we talk about the market', time: convertTimeToMS('2:25') },
+                { line: 'We have meetings, we make profit', time: convertTimeToMS('2:29') },
+                { line: '', time: convertTimeToMS('2:32') }
             ]
         },
         flashcards: [
