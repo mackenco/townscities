@@ -1,9 +1,15 @@
-convertTimeToMS = time => parseInt(time.split(':')[0]) * 60000 + parseInt(time.split(':')[1]) * 1000;
+convertTimeToMS = time => {
+    return time.split(':')[1].slice(2)
+        ? parseInt(time.split(':')[0]) * 60000 +
+              parseInt(time.split(':')[1].slice(0, 2)) * 1000 +
+              parseInt(time.split(':')[1].slice(2)) * 100
+        : parseInt(time.split(':')[0]) * 60000 + parseInt(time.split(':')[1].slice(0, 2)) * 1000;
+};
 
 // I -> time string
 // O -> integer of miliseconds
 
-console.log(convertTimeToMS('1:42'));
+console.log(`what is this? ${convertTimeToMS('0:235')}`);
 
 var tncData = [
     {
@@ -27,24 +33,40 @@ var tncData = [
             'Present simple\n I do\n You do\n He does\n She does\n It does\n You do\n They do\n We do everything\n \n Present continuous\n I am doing\n You are doing\n He is doing\n She is doing\n It is doing\n You are doing\n They are doing\n We are doing us\n \n Simple past\n I did\n You did\n He did\n She did\n It did\n You did\n They did\n We did it all\n \n Present perfect\n I have done\n You have done\n He has done\n She has done\n It has done\n You have done\n They have done\n We have done it all\n \n Let’s take it back to the present simple\n I do\n You do\n He does\n She does\n It does\n You do\n They do\n We do everything\n \n Present continuous\n I am doing\n You are doing\n He is doing\n She is doing\n It is doing\n You are doing\n They are doing\n We are doing us\n \n Simple past\n I did\n You did\n He did\n She did\n It did\n You did\n They did\n We did it all\n \n Present perfect\n I have done\n You have done\n He has done\n She has done\n It has done\n You have done\n They have done\n We have done it all\n \n',
         lyricsPlayer: {
             lyrics: [
-                { line: ' ', time: 10000 },
-                { line: 'Present simple', time: 10500 },
-                { line: 'I do', time: 13000 },
-                { line: 'You do', time: 13500 },
-                { line: 'He does, she does, it does', time: 14000 },
-                { line: 'You do', time: 1800 },
-                { line: 'present continuous', time: 16500 },
-                { line: 'I am going you are going he is going', time: 18000 },
-                { line: 'she is going it is going you are going', time: 21000 },
-                { line: 'they are going', time: 24000 },
-                { line: 'we are going together', time: 25900 },
-                { line: '', time: 27800 },
-                { line: 'simple past', time: 29000 },
-                { line: 'I went you went', time: 30500 },
-                { line: 'he went she went it went', time: 32000 },
-                { line: 'you went', time: 35800 },
-                { line: 'Cause they put it in a bowl at the mall', time: 107500 },
-                { line: '', time: 112000 }
+                { line: '', time: 0 },
+                { line: 'Present simple', time: convertTimeToMS('0:09') },
+                { line: 'I do', time: convertTimeToMS('0:11') },
+                { line: 'You do', time: convertTimeToMS('0:13') },
+                { line: 'He does, she does, it does', time: convertTimeToMS('0:14') },
+                { line: 'You do', time: convertTimeToMS('0:17') },
+                { line: 'They do', time: convertTimeToMS('0:19') },
+                { line: 'And we do everything', time: convertTimeToMS('0:20') },
+                { line: 'Present continuous', time: convertTimeToMS('0:22') },
+                { line: 'I am doing', time: convertTimeToMS('0:235') },
+                { line: 'You are doing', time: convertTimeToMS('0:252') },
+                { line: 'He is doing', time: convertTimeToMS('0:26') },
+                { line: 'She is doing', time: convertTimeToMS('0:275') },
+                { line: 'It is doing', time: convertTimeToMS('0:285') },
+                { line: 'You are doing', time: convertTimeToMS('0:29') },
+                { line: 'They are doing', time: convertTimeToMS('0:31') },
+                { line: 'And we are doing us', time: convertTimeToMS('0:32') },
+                { line: 'Simple past', time: convertTimeToMS('0:335') },
+                { line: 'I did', time: convertTimeToMS('0:35') },
+                { line: 'You did', time: convertTimeToMS('0:37') },
+                { line: 'He did she did it did', time: convertTimeToMS('0:38') },
+                { line: 'You did', time: convertTimeToMS('0:417') },
+                { line: 'They did', time: convertTimeToMS('0:43') },
+                { line: 'And we did it all', time: convertTimeToMS('0:44') },
+                { line: 'Present perfect', time: convertTimeToMS('0:46') },
+                { line: 'I have done', time: convertTimeToMS('0:47') },
+                { line: 'You have done', time: convertTimeToMS('0:49') },
+                { line: 'He has done', time: convertTimeToMS('0:50') },
+                { line: 'She has done', time: convertTimeToMS('0:51') },
+                { line: 'It has done', time: convertTimeToMS('0:52') },
+                { line: 'You have done', time: convertTimeToMS('0:53') },
+                { line: 'They have done', time: convertTimeToMS('0:54') },
+                { line: 'And we have done it all', time: convertTimeToMS('0:56') },
+                { line: '', time: convertTimeToMS('0:58') }
             ]
         },
         visualWS: [
