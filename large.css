@@ -13,13 +13,11 @@ body {
 
 .thin-border {
   margin: 0px 20px 0px 20px;
-  min-width: 380px;
   height: 2px;
 }
 
 .thick-border {
   margin: 2px 20px 0px 20px;
-  min-width: 380px;
   height: 7px;
 }
 

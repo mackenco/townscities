@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+div.unit > a {
+  color: inherit;
+}
+
 .thin-border {
   background-color: #0cec81;
   border: 0.75px solid #1d3142;

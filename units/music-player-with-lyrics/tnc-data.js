@@ -65,7 +65,8 @@ var tncData = [
                 { line: 'It has done', time: convertTimeToMS('0:52') },
                 { line: 'You have done', time: convertTimeToMS('0:53') },
                 { line: 'They have done', time: convertTimeToMS('0:54') },
-                { line: 'And we have done it all', time: convertTimeToMS('0:565') }
+                { line: 'And we have done it all', time: convertTimeToMS('0:56') },
+                { line: '', time: convertTimeToMS('0:58') }
             ]
         },
         visualWS: [
