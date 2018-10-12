@@ -89,7 +89,17 @@ var tncData = [
                 { line: 'He did she did it did', time: convertTimeToMS('1:375') },
                 { line: 'You did', time: convertTimeToMS('1:40') },
                 { line: 'They did', time: convertTimeToMS('1:42') },
-                { line: 'And we did it all', time: convertTimeToMS('1:44') }
+                { line: 'And we did it all', time: convertTimeToMS('1:44') },
+                { line: 'Present perfect', time: convertTimeToMS('1:45') },
+                { line: 'I have done', time: convertTimeToMS('1:46') },
+                { line: 'You have done', time: convertTimeToMS('1:48') },
+                { line: 'He has done', time: convertTimeToMS('1:49') },
+                { line: 'She has done', time: convertTimeToMS('1:50') },
+                { line: 'It has done', time: convertTimeToMS('1:51') },
+                { line: 'You have done', time: convertTimeToMS('1:52') },
+                { line: 'They have done', time: convertTimeToMS('1:54') },
+                { line: 'And we have done it all', time: convertTimeToMS('1:55') },
+                { line: '', time: convertTimeToMS('1:57') }
             ]
         },
         visualWS: [
