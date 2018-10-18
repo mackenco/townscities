@@ -1039,17 +1039,16 @@ var tncData = [
                 { line: 'they went', time: convertTimeToMS('1:26') },
                 { line: 'and we went together', time: convertTimeToMS('1:275') },
                 { line: 'present perfect', time: convertTimeToMS('1:30') },
-                { line: 'I have gone', time: convertTimeToMS('1:32') }
-                { line: 'You have gone', time: convertTimeToMS('1:34') },
-                { line: 'He has gone', time: convertTimeToMS('1:36') },
-                // { line: 'She has gone', time: 78000 },
-                // { line: 'It has gone', time: 79000 },
-                // { line: 'You have gone', time: 80000 },
-                // { line: 'They have gone', time: 81000 },
-                // { line: 'and we have gone', time: 82000 },
-                // { line: 'everywhere', time: 83000 },
-                // { line: 'Take it back', time: 84000 },
-                // { line: 'to the present simple', time: 85000 }
+                { line: 'I have gone', time: convertTimeToMS('1:32') },
+                { line: 'You have gone', time: convertTimeToMS('1:33') },
+                { line: 'He has gone', time: convertTimeToMS('1:34') },
+                { line: 'She has gone', time: convertTimeToMS('1:35') },
+                { line: 'It has gone', time: convertTimeToMS('1:36') },
+                { line: 'You have gone', time: convertTimeToMS('1:37') },
+                { line: 'They have gone', time: convertTimeToMS('1:38') },
+                { line: 'and we have gone', time: convertTimeToMS('1:395') },
+                { line: 'everywhere', time: convertTimeToMS('1:41') },
+                { line: '', time: convertTimeToMS('1:44') }
             ]
         },
         visualWS: [
