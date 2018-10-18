@@ -94,7 +94,7 @@ body .player .right .bottom {
 }
 body .player .right .bottom video {
   flex-grow: 1;
-  height: 32px;
+  height: 2.8em;
 }
 
 .container {
