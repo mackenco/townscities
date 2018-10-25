@@ -10,7 +10,6 @@ var currentLine = '';
 function align() {
    var a = $('.highlighted').height();
    var c = $('.content').height();
-   console.log($('.highlighted'));
    var d =
       $('.highlighted').offset().top -
       $('.highlighted')
@@ -31,7 +30,6 @@ $(window).on('resize', function() {
 
 $(document).ready(function() {
    $('video').on('timeupdate', function(e) {
-      console.log(`tncData[12].lyricsPlayer ${song.lyricsPlayer}`);
       var time = this.currentTime * 1000;
       var past = song.lyricsPlayer.lyrics.filter(function(item) {
          return item.time < time;
