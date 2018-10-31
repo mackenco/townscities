@@ -101,7 +101,6 @@ body .player .right .bottom {
   justify-content: center;
 }
 body .player .right .bottom audio {
-  flex-grow: 1;
   height: 2.8em;
 }
 
