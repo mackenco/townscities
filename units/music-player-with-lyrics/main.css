@@ -99,12 +99,11 @@ body .player .right .bottom {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 10px;
 }
-body .player .right .bottom audio {
+/*body .player .right .bottom audio {
   flex-grow: 1;
   height: 2.8em;
-}
+}*/
 
 .container {
   margin: 0 auto;
