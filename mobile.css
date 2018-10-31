@@ -6,6 +6,10 @@ body {
     2px 2px 0 #1D3142;
 }
 
+.player {
+  border: 5px solid red;
+}
+
 .main {
   margin: 30px auto;
 }
