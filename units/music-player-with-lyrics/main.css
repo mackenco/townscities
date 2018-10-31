@@ -60,13 +60,6 @@ body .content .lyrics > div.highlighted {
   /*font-size: 48px;*/
 }
 
-@media only screen and (max-width: 600px) {
-  body .player {
-    min-height: 100px;
-    max-height: 300px;
-  }
-}
-
 body .player {
   z-index: 10;
   background: #f9f9f9;
@@ -75,6 +68,13 @@ body .player {
   max-height: 100px;
   display: flex;
   flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+  body .player {
+    max-height: none;
+    height: 150px;
+  }
 }
 
 /*body .player .left {
