@@ -70,13 +70,13 @@ body .player {
   flex-direction: row;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+/*@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   body .player {
     max-height: none;
     height: 150px;
   }
 }
-
+*/
 body .player .right {
   flex-grow: 1;
   display: flex;
