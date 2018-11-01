@@ -100,9 +100,9 @@ body .player .right .bottom {
   flex-direction: column;
   justify-content: center;
 }
-body .player .right .bottom audio {
+/*body .player .right .bottom audio {
   height: 2.8em;
-}
+}*/
 
 .container {
   margin: 0 auto;
