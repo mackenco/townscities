@@ -411,12 +411,15 @@ var tncData = [
         lyricsPlayer: {
             lyrics: [
                 { line: '', time: 0 },
-                { line: 'How many, many, how much?', time: convertTimeToMS('0:09') }
-                // { line: 'I do', time: convertTimeToMS('0:11') },
-                // { line: 'You do', time: convertTimeToMS('0:13') },
-                // { line: 'He does, she does, it does', time: convertTimeToMS('0:14') },
-                // { line: 'You do', time: convertTimeToMS('0:17') },
-                // { line: 'They do', time: convertTimeToMS('0:19') },
+                { line: 'How many, many, how much?', time: convertTimeToMS('0:10') },
+                { line: 'How many things, how much stuff?', time: convertTimeToMS('0:13') },
+                { line: 'How many, many, how much?', time: convertTimeToMS('0:16') },
+                { line: "How many things? That's enough", time: convertTimeToMS('0:19') },
+                { line: '', time: convertTimeToMS('0:21') },
+                { line: 'How many is countable', time: convertTimeToMS('0:26') },
+                { line: 'How many apples are in the bag?', time: convertTimeToMS('0:30') },
+                { line: 'How much asks about one thing', time: convertTimeToMS('0:33') },
+                { line: 'How much sugar do I have?', time: convertTimeToMS('0:36') }
                 // { line: 'And we do everything', time: convertTimeToMS('0:20') },
                 // { line: 'Present continuous', time: convertTimeToMS('0:22') },
                 // { line: 'I am doing', time: convertTimeToMS('0:235') },
