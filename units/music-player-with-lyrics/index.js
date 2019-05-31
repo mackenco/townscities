@@ -30,6 +30,11 @@ $(window).on('resize', function() {
 
 $(document).ready(function() {
    $('audio').on('timeupdate', function(e) {
+      //
+      if (document.querySelector('audio').paused) {
+         console.log('detected pause');
+         //$('.content').animate({ easing: 'swing', duration: 0 });
+      }
       var time = this.currentTime * 1000;
       var past = song.lyricsPlayer.lyrics.filter(function(item) {
          return item.time < time;
