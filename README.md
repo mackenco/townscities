@@ -1,2 +1,3 @@
 # townsandcities
-Website for Brookyln-based education startup Towns and Cities. They teach you English through hip hop! [www.townsandcitiesapp.com](http://www.townsandcitiesapp.com)
+
+Towns and Cities teaches English through music! [www.townsandcitiesapp.com](http://www.townsandcitiesapp.com)
