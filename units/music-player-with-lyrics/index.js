@@ -1,6 +1,6 @@
-console.clear();
-console.log(tncData);
-console.log(song.lyrics);
+//console.clear();
+// console.log(tncData);
+// console.log(song.lyrics);
 
 // below is example lyric data
 // var _data = JSON.parse(
@@ -36,17 +36,26 @@ $(window).on('resize', function() {
 });
 
 $(document).ready(function() {
+   console.log('hello');
    $('audio').on('timeupdate', function(e) {
+      // When we reach the last lyric, we can't go back, but before we reach the last lyric we can
+
+      // get current time prop of audio element
+      //var time = this.currentTime;
       var time = this.currentTime * 1000;
+      console.log(`this.currentTime is ${this.currentTime}`);
       var past = song.lyricsPlayer.lyrics.filter(function(item) {
          return item.time < time;
       });
-      if (song.lyricsPlayer[past.length] != currentLine) {
-         currentLine = song.lyricsPlayer.lyrics[past.length];
-         $('.lyrics div').removeClass('highlighted');
-         $(`.lyrics div:nth-child(${past.length})`).addClass('highlighted'); //Text might take up more lines, do before realigning
-         align();
-      }
+
+      // for some reason the if statement below was making our highlighted class only stay on the last lyric
+
+      // if (song.lyricsPlayer[past.length] != currentLine) {
+      currentLine = song.lyricsPlayer.lyrics[past.length];
+      $('.lyrics div').removeClass('highlighted');
+      $(`.lyrics div:nth-child(${past.length})`).addClass('highlighted'); //Text might take up more lines, do before realigning
+      align();
+      // }
    });
 });
 
@@ -55,6 +64,7 @@ generate();
 function generate() {
    var html = '';
    for (var i = 0; i < song.lyricsPlayer.lyrics.length; i++) {
+      console.log('hello');
       // create individual divs for each lyric that will be shown on the screen.
       html += '<div';
       if (i == 0) {
