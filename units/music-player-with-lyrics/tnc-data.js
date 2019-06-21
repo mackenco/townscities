@@ -551,8 +551,9 @@ var tncData = [
                 { line: 'inside my backpack', time: convertTimeToMS('0:40') },
                 { line: 'A pencil has lead', time: convertTimeToMS('0:44') },
                 { line: 'A pen has ink', time: convertTimeToMS('0:48') },
-                { line: ' And I use both to draw amazing things', time: convertTimeToMS('0:49') }
-                // { line: 'Simple past', time: convertTimeToMS('0:335') },
+                { line: ' And I use both to draw amazing things', time: convertTimeToMS('0:49') },
+                { line: 'Supplies, supplies, supplies at school ', time: convertTimeToMS('0:55') },
+                { line: 'Pencils and pens ', time: convertTimeToMS('0:57') }
                 // { line: 'I did', time: convertTimeToMS('0:35') },
                 // { line: 'You did', time: convertTimeToMS('0:37') },
                 // { line: 'He did she did it did', time: convertTimeToMS('0:38') },
