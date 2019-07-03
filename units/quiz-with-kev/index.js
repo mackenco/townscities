@@ -72,10 +72,17 @@
 		}
 	};
 
+	resetQuiz = () => {
+		$('.sentence').removeClass('correct');
+		$('.sentence').removeClass('incorrect');
+	};
+
 	// current issues:
 	// Also how do I move to the next quiz
 
 	$('button.next').click(e => {
+		// reset quiz color highlighting
+		resetQuiz();
 		// invoke populate quiz with the next quic
 		if (currentQuizIndex < quizzes.length) {
 			currentQuizIndex++;
