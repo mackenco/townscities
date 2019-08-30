@@ -27,14 +27,12 @@ $(window).on('resize', function() {
 });
 
 $(document).ready(function() {
-   console.log('hello');
    $('audio').on('timeupdate', function(e) {
       // When we reach the last lyric, we can't go back, but before we reach the last lyric we can
 
       // get current time prop of audio element
       //var time = this.currentTime;
       var time = this.currentTime * 1000;
-      console.log(`this.currentTime is ${this.currentTime}`);
       var past = song.lyricsPlayer.lyrics.filter(function(item) {
          return item.time < time;
       });
