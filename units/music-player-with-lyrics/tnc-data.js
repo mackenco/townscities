@@ -419,9 +419,11 @@ var tncData = [
                 { line: 'How many is countable', time: convertTimeToMS('0:26') },
                 { line: 'How many apples are in the bag?', time: convertTimeToMS('0:30') },
                 { line: 'How much asks about one thing', time: convertTimeToMS('0:33') },
-                { line: 'How much sugar do I have?', time: convertTimeToMS('0:36') }
-                // { line: 'And we do everything', time: convertTimeToMS('0:20') },
-                // { line: 'Present continuous', time: convertTimeToMS('0:22') },
+                { line: 'How much sugar do I have?', time: convertTimeToMS('0:36') },
+                { line: 'How many is countable', time: convertTimeToMS('0:38') },
+                { line: 'How many books are in the bag?', time: convertTimeToMS('0:405') },
+                { line: 'How much asks about one thing', time: convertTimeToMS('0:43') },
+                { line: 'How much money is in your hand?', time: convertTimeToMS('0:46') }
                 // { line: 'I am doing', time: convertTimeToMS('0:235') },
                 // { line: 'You are doing', time: convertTimeToMS('0:252') },
                 // { line: 'He is doing', time: convertTimeToMS('0:26') },
